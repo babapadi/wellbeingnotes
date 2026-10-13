@@ -5,10 +5,10 @@ from playwright.async_api import async_playwright
 
 # ====================== CONFIG ======================
 TOTAL_BOTS = 400          # ← Change this number easily
-MAX_CONCURRENT = 6        # How many browsers at the same time
+MAX_CONCURRENT = 12        # How many browsers at the same time
 MIN_TIME = 10             # Minimum seconds on the page
 MAX_TIME = 15             # Maximum seconds on the page
-TOTAL_HOURS = 10          # Spread bots over this many hours
+TOTAL_HOURS = 5          # Spread bots over this many hours
 VISITS_PER_BOT = (2, 3)   # Each bot visits the page 2 or 3 times
 # ====================================================
 
